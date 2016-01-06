@@ -8,7 +8,7 @@
 
 @interface NSString (SurrogatePair)
 
-- (instancetype)removedSurrogatePairString;
-- (BOOL)isIncludingSurrogatePair;
+- (instancetype)stringByRemovingSurrogatePairs;
+- (BOOL)containsSurrogatePair;
 
 @end

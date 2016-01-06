@@ -10,7 +10,7 @@
 
 @implementation NSString (SurrogatePair)
 
-- (instancetype)removedSurrogatePairString
+- (instancetype)stringByRemovingSurrogatePairs
 {
 	NSMutableString* __block buffer = [NSMutableString stringWithCapacity:[self length]];
 	
@@ -21,7 +21,7 @@
 	return buffer;
 }
 
-- (BOOL)isIncludingSurrogatePair
+- (BOOL)containsSurrogatePair
 {
 	BOOL __block result = NO;
 	
@@ -39,9 +39,9 @@
 
 - (BOOL)isSurrogatePair
 {
-	const unichar high = [self characterAtIndex:0];
+	const unichar unicodeSurrogatePairThreshold = [self characterAtIndex:0];
 	
-	return (0xd800 <= high);
+	return (0xd800 <= unicodeSurrogatePairThreshold);
 }
 
 @end

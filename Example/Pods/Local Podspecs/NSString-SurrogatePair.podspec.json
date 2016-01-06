@@ -1,15 +1,15 @@
 {
   "name": "NSString-SurrogatePair",
   "version": "0.1.0",
-  "summary": "A short description of NSString-SurrogatePair.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/NSString-SurrogatePair",
+  "summary": "Two categories for NSString that allow screening for surrogate pairs.",
+  "description": "Two categories for NSString that allow screening for emojis and surrogate pairs.\nThis is loosely based on another pod: woxtu/NSString-RemoveEmoji\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/yodle/NSString-SurrogatePair",
   "license": "MIT",
   "authors": {
     "Mark Rogers": "mark.rogers@yodle.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/NSString-SurrogatePair.git",
+    "git": "https://github.com/yodle/NSString-SurrogatePair.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -18,7 +18,7 @@
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
-    "NSString-SurrogatePair": [
+    "NSString-RemoveEmoji": [
       "Pod/Assets/*.png"
     ]
   }

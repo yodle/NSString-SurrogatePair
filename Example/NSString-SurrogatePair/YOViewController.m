@@ -22,8 +22,8 @@ CGFloat const YOViewControllerLeftRightPadding = 10;
 
 - (BOOL)textField:(UITextField*)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString*)string
 {
-	if ([string isIncludingSurrogatePair]) {
-		textField.text = [textField.text stringByReplacingCharactersInRange:range withString:[string removedSurrogatePairString]];
+	if ([string containsSurrogatePair]) {
+		textField.text = [textField.text stringByReplacingCharactersInRange:range withString:[string stringByRemovingSurrogatePairs]];
 		return NO;
 	}
 	return YES;
@@ -31,8 +31,8 @@ CGFloat const YOViewControllerLeftRightPadding = 10;
 
 -(BOOL)textView:(UITextView*)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString*)text
 {
-	if ([text isIncludingSurrogatePair]) {
-		textView.text = [textView.text stringByReplacingCharactersInRange:range withString:[text removedSurrogatePairString]];
+	if ([text containsSurrogatePair]) {
+		textView.text = [textView.text stringByReplacingCharactersInRange:range withString:[text stringByRemovingSurrogatePairs]];
 		return NO;
 	}
 	return YES;

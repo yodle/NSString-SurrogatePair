@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NSString-SurrogatePair: 986346cf2e93c8ccf79c6a16e996c74f6212fe4a
+  NSString-SurrogatePair: b438f2740b2cc5f4a653566ae836e2c38b7bc109
 
 COCOAPODS: 0.39.0
