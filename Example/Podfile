@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NSString-SurrogatePair_Example', :exclusive => true do
+  pod "NSString-SurrogatePair", :path => "../"
+end
+
+target 'NSString-SurrogatePair_Tests', :exclusive => true do
+  pod "NSString-SurrogatePair", :path => "../"
+
+  
+end
