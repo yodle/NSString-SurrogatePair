@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                        This is loosely based on another pod: woxtu/NSString-RemoveEmoji
                        DESC
   s.homepage         = "https://github.com/yodle/NSString-SurrogatePair"
-  s.license          = { type: 'MIT', file: 'LICENSE.md' }
+  s.license          = { type: 'Apache 2', file: 'LICENSE' }
   s.author           = { "Yodle" => "mobsters@yodle.com" }
   s.source           = { :git => "https://github.com/yodle/NSString-SurrogatePair.git", :tag => s.version.to_s }
   s.platform     = :ios, '8.0'
