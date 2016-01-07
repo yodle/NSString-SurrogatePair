@@ -1,0 +1,6 @@
+framework module NSString_SurrogatePair {
+  umbrella header "NSString-SurrogatePair-umbrella.h"
+
+  export *
+  module * { export * }
+}

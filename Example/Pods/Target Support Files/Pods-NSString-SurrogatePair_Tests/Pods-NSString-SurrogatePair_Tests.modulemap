@@ -1,0 +1,6 @@
+framework module Pods_NSString_SurrogatePair_Tests {
+  umbrella header "Pods-NSString-SurrogatePair_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
