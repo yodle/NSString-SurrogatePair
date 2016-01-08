@@ -10,8 +10,8 @@ This is to support the unicode character set in [MySQL](https://dev.mysql.com/do
 
 
 ```objectivec
-BOOL isIncludingSurrogatePair = [@"✨" isIncludingSurrogatePair];
-NSString* removedSurrogatePairString = [@"✨" removedSurrogatePairString];
+BOOL containsSurrogatePair = [@"✨" containsSurrogatePair];
+NSString* stringByRemovingSurrogatePairs = [@"✨" stringByRemovingSurrogatePairs];
 ```
 
 
@@ -37,4 +37,4 @@ This is loosely based on another pod: [NSString-RemoveEmoji](https://github.com/
 ## License
 
 Copyright (c) 2016 Yodle
-Licensed under the MIT license.
+Licensed under the Apache 2 License.
