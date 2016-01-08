@@ -3,7 +3,7 @@
 //  NSString+SurrogatePair
 //
 //  Created by Mark Rogers on 7/28/15.
-//  Copyright (c) 2015 Mark Rogers. All rights reserved.
+//  Copyright (c) 2016 Yodle. 
 //
 
 @interface NSString (SurrogatePair)

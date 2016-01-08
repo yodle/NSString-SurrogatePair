@@ -3,7 +3,7 @@
 //  NSString-RemoveSurrogatePair
 //
 //  Created by Mark Rogers on 7/28/15.
-//  Copyright (c) 2015 Yodle. All rights reserved.
+//  Copyright (c) 2015 Yodle. 
 //
 
 #import <XCTest/XCTest.h>
