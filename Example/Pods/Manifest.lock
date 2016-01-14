@@ -1,5 +1,5 @@
 PODS:
-  - NSString-SurrogatePair (0.1.0)
+  - NSString-SurrogatePair (1.0.1)
 
 DEPENDENCIES:
   - NSString-SurrogatePair (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NSString-SurrogatePair: b438f2740b2cc5f4a653566ae836e2c38b7bc109
+  NSString-SurrogatePair: d5e4d32c08d6a1a648b82bd78514d61fe5128d4b
 
 COCOAPODS: 0.39.0

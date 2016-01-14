@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "NSString-SurrogatePair"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "An NSString category to identify and remove surrogate pair UTF-8 characters."
   s.description      = <<-DESC
                        This is to support the unicode character set in MySQL which handles a 
